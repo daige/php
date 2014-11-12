@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Add an Event</title>
+</head>
+<body>
+<!-- Script 7.8 - event.html -->
+<div><p>Use this form to add an event:</p>
+
+<form action="event.php" method="post">
+
+	<p>Event Name: <input type="text" name="name" size="30" /></p>
+	<p>Event Days: 
+	<input type="checkbox" name="days[]" value="Sunday" /> Sun 
+	<input type="checkbox" name="days[]" value="Monday" /> Mon
+	<input type="checkbox" name="days[]" value="Tuesday" /> Tue
+	<input type="checkbox" name="days[]" value="Wednesday" /> Wed 
+	<input type="checkbox" name="days[]" value="Thursday" /> Thu 
+	<input type="checkbox" name="days[]" value="Friday" /> Fri 
+	<input type="checkbox" name="days[]" value="Saturday" /> Sat 
+	</p>
+	<input type="submit" name="submit" value="Add the Event!" />
+
+</form>
+</div>
+</body>
+</html>

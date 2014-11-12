@@ -1,0 +1,21 @@
+<!-- END CHANGEABLE CONTENT. -->
+<?php // Script 13.4 - footer.html
+
+// Display general admin links...
+// - if the user is an administrator and it's not the logout.php page
+// - or if the $loggedin variable is true (i.e., the user just logged in) 
+if ( (is_administrator() && (basename($_SERVER['PHP_SELF']) != 'logout.php'))
+OR (isset($loggedin) && $loggedin) ) {
+	
+	// Create the links:
+	print '<hr /><h3>Site Admin</h3><p><a href="add_quote.php">Add Quote</a> <-> 
+	<a href="view_quotes.php">View All Quotes</a> <-> 
+	<a href="logout.php">Logout</a></p>';
+	
+}
+
+?>
+	</div><!-- container -->
+	<div id="footer">Content &copy; 2011</div>
+</body>
+</html>

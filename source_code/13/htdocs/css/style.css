@@ -1,0 +1,51 @@
+@charset "utf-8"; 
+/* CSS Coded and Designed by Nathan Chapman */
+/* from Pixl Design - http://pixl.utopiaplanitia.org */
+
+/* --------- RESET --------- */
+/* Don't forget to set a foreground and background color 
+   on the 'html' or 'body' element! */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dd,dl,dt,li,ol,ul,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{ margin:0; padding:0; border:0; font-weight:inherit; font-style:inherit; font-size:100%; line-height:1.2; font-family:Geneva, Arial, Helvetica, sans-serif; text-align:left; vertical-align:baseline; }
+a img,:link img,:visited img{ border:0; }
+table{  border-collapse:collapse; border-spacing:0; }
+ol,ul{ list-style:none; }
+q:before,q:after,blockquote:before,blockquote:after{ content:""; }
+
+/* --------- Universal --------- */
+body{ background:#fefefe;  color:#AAA;  }
+
+/* --------- Links --------- */
+a:link,a:visited{ text-decoration:none; color:#666; border-bottom:1px #999 dashed; }
+a:hover,a:active{ color:#333; border-bottom:1px #333 solid; }
+
+/* --------- Layout --------- */
+#container{ margin:20px auto 30px; width:65%; }
+#footer{ color:#999; font-size:75%; margin-bottom:50px; text-align:center; }
+
+/* --------- Header Tags --------- */
+h1,h2,h3,h4,h5,h6{ color:#999; font-weight:bolder; padding:10px 15px 0px 15px; }
+h1{ font-size:36px; }
+h2{ font-size:24px; }
+h3{ font-size:18px; }
+h4{ font-size:16px; }
+h5{ font-size:14px; }
+h6{ font-size:12px; }
+
+/* --------- Typography --------- */
+p{ font-size:medium; line-height:2; }
+ul,ol{ margin:25px; }
+ul li, ol li { padding-left:10px; }
+ul{ list-style:square inside; }
+ol{ list-style:decimal inside; }
+blockquote{ margin:15px; border-left:5px #FFDF00 solid; padding:7px; color:#999; font-style:italic; }
+pre { margin:10px; border-left:5px #FFDF00 double; padding:10px; font-family:"Courier New", Courier, monospace; }
+
+/* --------- Yellow Stops --------- */
+h1:after,h2:after,h3:after,h4:after,h5:after,h6:after,li:after{ content:"."; color:#FFDF00; font-family:Helvatica, Arial, sans-serif; }
+li:after{ font-size:24px; }
+
+p { margin-top: 1em; } 
+
+.error {
+	color: red;
+}

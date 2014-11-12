@@ -1,0 +1,1 @@
+email|s:14:"me@example.com";loggedin|i:1292883103;

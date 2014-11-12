@@ -1,0 +1,23 @@
+<?php // Script 13.3 - header.html
+
+// Include the functions script:
+include('includes/functions.php'); ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" media="all" href="css/style.css" />
+	<title><?php // Print the page title.
+	if (defined('TITLE')) { // Is the title defined?
+		print TITLE;
+	} else { // The title is not defined.
+		print 'My Site of Quotes';
+	}
+	?></title>
+</head>
+<body>
+	<div id="container">
+		<h1>My Site of Quotes</h1>
+		<br />
+ 		<!-- BEGIN CHANGEABLE CONTENT. -->
