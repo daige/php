@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+ <title>小工具</title>
+</head>
+<body>
+
+<div>
+<p>邮费运费计算程序</p>
+
+<form action="handle_calc.php" method="post">
+
+<p>价格：<input type="text" name="price" size="5" /> </p>
+<p>数量：<input type="text" name="quantity" size="5" /></p>
+<p>折扣: <input type="text" name="discount" size="5" /></p>
+<p>税率：<input type="text" name="tax" size="5" /> (%)</p>
+<p>运输方式:
+            <select name="shipping">
+	        <option value="5.00">船运</option>
+	        <option value="10.00">陆运</option>
+	        <option value="30.00">空运</option>
+			</select>
+<p><input type="submit" name="submit" value="提交" /></p>
+</form>
+
+</div>
+</body>
+</html>
