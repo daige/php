@@ -1,0 +1,18 @@
+<?php
+	
+	if( ( is_administrator() && (basename($_SERVER['PHP_SELF']) != 'logout.php') ) ||  (isset($loggedin) &&  $loggedin )) 
+	{
+        print ' <hr/><h3>网站管理</h3>
+        		<p>
+        		<a href="add_quote.php">增加Quote</a>
+        		<a href="view_quotes.php">查看所有Quotes</a>
+        		<a href="logout.php">退出</a>
+        		<p>';
+
+	}
+?>
+
+</div>
+<div id="footer">Content &copy;2015 </div>
+</body>
+</html>
